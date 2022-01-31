@@ -41,9 +41,11 @@ let arrayThree = [
 ...array,
 ...arraytwo
 ];
+
 function sortByAge(arr) {
   arr.sort((a, b) => a.age - b.age);  //(b.age-a.age)for descending
 }
+
 sortByAge(arrayThree);
 console.log(arrayThree);
 
