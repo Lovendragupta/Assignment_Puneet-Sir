@@ -1,6 +1,8 @@
 //Printing numbers from 1 to 30 and if the number is divisible by 15 then Printing "Hello World" and if the number is divisible by 3 then Printing "Hello"
 //and if the number is divisible by 5 then "World".
+
 let result = "" 
+
 for(let i = 1; i <=30 ;i++) { 
    // if dividing i by 3 and 5  
    // number is divisible by both 3 and 5 
